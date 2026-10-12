@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#260914">
+  <title>Heart of a Thousand Particles 💗</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="scene">
+    <canvas id="universe" aria-hidden="true"></canvas>
+
+    <section class="content">
+      <p class="eyebrow">A LITTLE UNIVERSE, MADE OF PINK</p>
+
+      <h1>Heart of a<br>
+        <span>Thousand Particles</span>
+      </h1>
+
+      <p class="intro">
+        Some things find their way back together.
+      </p>
+
+      <div class="canvas-wrap" id="canvasWrap">
+        <canvas id="heartCanvas"
+          aria-label="Interactive pink particle heart">
+        </canvas>
+        <div class="heart-aura" aria-hidden="true"></div>
+      </div>
+
+      <p class="instruction">
+        MOVE TO SCATTER <span>·</span> TAP TO REFORM
+      </p>
+
+      <button class="reform-button" id="reformButton">
+        Bring it together <span>♡</span>
+      </button>
+
+      <button class="message-toggle" id="messageToggle"
+        aria-expanded="false" aria-controls="message">
+        A little note
+      </button>
+
+      <p class="hidden-message" id="message" hidden>
+        No matter how far the little pieces wander,
+        they can always find their way back. 💗
+      </p>
+    </section>
+
+    <footer>MADE OF LITTLE SPARKS <span>♥</span></footer>
+    <div class="sr-only" id="status" aria-live="polite"></div>
+  </main>
+</body>
+</html>
